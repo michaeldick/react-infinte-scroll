@@ -1,0 +1,96 @@
+// Variables
+/////////////////////////////
+
+// Colors
+@color-black: #000;
+@color-purple: #3688f7;
+@color-white: #FFF;
+@color-grey: #EEE;
+@color-green: #009788;
+@color-blue: #1194F6;
+@color-border: #DDD;
+@color-text: #333;
+@color-text-hinted: #999;
+
+// Font sizes
+@font-size-lg: 20px;
+@font-size-md: 14px;
+@font-size-sm: 12px;
+
+// Font Family
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@font-family-sans: 'Roboto', 'Helvetica Neue', helvetica, arial, sans-serif;
+
+// Elevation
+@shadow-100: 0 2px 4px hsla(0, 0, 0, .25);
+@shadow-200: 0 3px 6px hsla(0, 0, 0, .3);
+@shadow-300: 0 3px 10px hsla(0, 0, 0, .4);
+
+// Z
+@z-100: 100;
+@z-200: 200;
+@z-300: 300;
+
+// Padding scale
+@pd-1: 8px;
+@pd-2: 12px;
+@pd-3: 16px;
+@pd-4: 24px;
+@pd-5: 42px;
+@pd-6: 72px;
+
+// Margin scale
+@mg-1: 8px;
+@mg-2: 12px;
+@mg-3: 16px;
+@mg-4: 24px;
+@mg-5: 42px;
+@mg-6: 72px;
+
+// Feature-based
+@hud-height: 56px;
+
+
+// Main
+/////////////////////////////
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,form,label,table,caption,tbody,tfoot,thead,tr,th,td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+header, section, nav, footer, aside, article { display: block; }
+
+html, body {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+	background: @color-grey;
+	font-family: @font-family-sans;
+	font-size: @font-size-md;
+	line-height: 1.3;
+	color: @color-black;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+  -webkit-user-select: none;
+}
+
+[hidden] {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+
+// Component styles
+/////////////////////////////
+
+@import "/components/hud/hud";
+@import "/components/spinner/spinner";
+@import "/components/view/view";
+@import "/components/card/card";
