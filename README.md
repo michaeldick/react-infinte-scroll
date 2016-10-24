@@ -1,5 +1,7 @@
 # Material Design: Infinite Scroll
 
+![Screen](screenshot.gif)
+
 ## Install
 
 1) Install dependencies:
