@@ -1,4 +1,4 @@
-# Material Design: Infinite Scroll
+# React Infinite Scroll
 
 ![Screen](screenshot.gif)
 
